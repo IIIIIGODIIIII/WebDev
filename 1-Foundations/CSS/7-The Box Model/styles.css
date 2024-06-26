@@ -1,0 +1,25 @@
+.box-1{
+    font-size: xx-large;
+    text-align: center;
+    box-sizing: content-box;
+    background-color: aquamarine;
+    width: 500px;
+    height: 250px;
+    padding: 50px;
+    margin: 100px;
+    border: 10px solid black;
+    
+}
+
+.box-2{
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    width: 700px;
+    height: 300px;
+    padding: 50px;
+    margin: 150px;  
+    border: 10px solid black;
+}
