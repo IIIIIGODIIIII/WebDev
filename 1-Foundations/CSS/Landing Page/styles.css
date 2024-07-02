@@ -1,11 +1,24 @@
 body{
-    padding: 0 200px;   
+    margin: 0;
+    padding: 0 0px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+
+.header{
+    background-color: #1f2937;
+    align-items: space-between;
 }
 
 .nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 50px;
+}
+
+.nav h1{
+    color: white;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-links{
@@ -19,7 +32,6 @@ body{
 
 ul{
     list-style-type: none;
-    
 }
 
 li{
@@ -28,21 +40,45 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 18px;
 }
 
 .sub-header{
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
+   padding: 50px;
 }
 
-.sub-header h2{
+.sub-header-text h2{
     justify-content: center;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8;
+    margin: 0;
 }
 
-.sub-header p{
+.sub-header-text p{
     justify-items: center;
-    overflow-wrap: break-word;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 15px;;
+}
+
+.sub-header-text button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.sub-header-image{
+    display: flex;
+    align-items: center;
+    margin-left: -100px;
 }
 
 .main{
@@ -51,9 +87,33 @@ a{
     align-items: center;
 }
 
+.main h1{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.illustration{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.box img{
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.box p{
+   text-align: center;
+}
+
 .box{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
 }
 
