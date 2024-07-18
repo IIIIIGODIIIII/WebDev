@@ -1,5 +1,3 @@
-
-
 const values = require("./follow");
 let errored = false;
 
