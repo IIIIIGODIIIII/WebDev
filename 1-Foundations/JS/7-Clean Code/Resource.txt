@@ -1,0 +1,5 @@
+1. Read 10 Principles for Keeping Your Programming Code Clean (https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/) 
+   to get some great tips for clean code.
+
+2. To help better understand good comment practices, read about comments telling us how code works (https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) 
+   as well as how to code without comments (https://blog.codinghorror.com/coding-without-comments/).
